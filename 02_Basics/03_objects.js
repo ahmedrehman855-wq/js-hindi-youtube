@@ -15,7 +15,7 @@ const JsUser = {
 
 }
 
-// console.log(JsUser.email) // can't access when the email cis written in string in objects
+// console.log(JsUser.email) // can't access when the email is written in string(" ") in object argument
 // console.log(JsUser["email"]);
 // console.log(JsUser[mySym]);
 
