@@ -42,12 +42,34 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(Object.hasOwnProperty('isLoggedIn'));
+// console.log(Object.hasOwnProperty('isLoggedIn'));
 
+const course ={
+        course: "js in Hindi",
+        price: "999",
+        courseInstructor: "hitesh"
+
+}
+// course.courseInstructor // can be used but not a good form 
+
+// const {courseInstructor: instructor} = course // const equal to the name of the extraction 
+// console.log(instructor);  // we can change name of courseInstructor if the name is too long to read
+
+// const navbar = ({company}) => {
+
+// }
+
+// { "name": "Rehman",
+//     "price": "Free",
+//     "coursename": "js in hindi"
+
+
+// }   //this is called jsan, we won't give any specific name for this object should have name 
+// // in jsan the keys and values should be in string (" ")
 
