@@ -12,3 +12,44 @@ const temperature = 41
 // }
 // console.log ("execute")
 // < , > ,<= ,>= ,==, !=, ===, !== // ! is named as not equal to 
+
+// const score = 400
+
+// if (score > 200){
+//     const power = "fly"
+//     console.log(`user power: ${power}`);
+    
+// }
+//     console.log(`user power: ${power}`);
+
+
+const balance = 1000
+
+// if(balance > 500) console.log("test");
+
+// if(balance < 500){
+//     console.log("less than 500");
+// } else if (balance < 700){
+//     console.log("less than 700");
+    
+// } else if (balance < 900){
+//     console.log("less than 900");
+    
+// } else {
+//     console.log("less than 1200");
+    // }
+
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = true
+const loggedInFromEmail = true
+
+if(userLoggedIn && debitCard){
+    console.log("Allow to buy course");
+    
+}
+if(loggedInFromEmail || loggedInFromGoogle){
+    console.log("user logged in");
+    
+}
+
