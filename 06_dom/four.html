@@ -19,6 +19,17 @@
     }
     addlanguage("python")
     addlanguage("java")
-
+    function addoptilang(lanName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(lanName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addoptilang("typescript")
+    //Edit
+    const secondlang = document.querySelector('li:nth-child(2)')
+    // secondlang.innerHTML = "Mojo"
+    const newli = document.createElement('li')
+    newli.textContent = "Mojo"
+    secondlang.replaceWith(newli)
 </script>
 </html>
