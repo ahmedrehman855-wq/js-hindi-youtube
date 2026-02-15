@@ -1,6 +1,6 @@
-
-```javascript
 // Project 1
+```javascript
+
 const button = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
@@ -22,11 +22,11 @@ button.forEach(function (button) {
       body.style.background = e.target.id;
     }
   });
-});
+}); ```
 
 
 //Project 2
-
+```javascript
 const form = document.querySelector('form');
 
 form.addEventListener('submit', function (e) {
@@ -45,5 +45,5 @@ form.addEventListener('submit', function (e) {
     // show the results
     results.innerHTML = `<span>${bmi}</span>`;
   }
-});
+});```
 
